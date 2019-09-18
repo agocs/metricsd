@@ -10,8 +10,8 @@ import "fmt"
 import "io/ioutil"
 import "net/http"
 import "strings"
-import "github.com/Sirupsen/logrus"
-import "github.com/josegonzalez/metricsd/structs"
+import "github.com/sirupsen/logrus"
+import "github.com/agocs/metricsd/structs"
 import "github.com/vaughan0/go-ini"
 
 // ElasticsearchCollector is an exported type that

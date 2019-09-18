@@ -5,8 +5,8 @@ import "net"
 import "net/url"
 import "strings"
 import "time"
-import "github.com/josegonzalez/metricsd/structs"
-import "github.com/Sirupsen/logrus"
+import "github.com/agocs/metricsd/structs"
+import "github.com/sirupsen/logrus"
 import "github.com/vaughan0/go-ini"
 
 // GraphiteShipper is an exported type that

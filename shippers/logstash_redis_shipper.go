@@ -1,8 +1,8 @@
 package shippers
 
 import "github.com/josegonzalez/go-radixurl"
-import "github.com/josegonzalez/metricsd/structs"
-import "github.com/Sirupsen/logrus"
+import "github.com/agocs/metricsd/structs"
+import "github.com/sirupsen/logrus"
 import "github.com/vaughan0/go-ini"
 
 // LogstashRedisShipper is an exported type that

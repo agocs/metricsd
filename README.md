@@ -1,4 +1,4 @@
-# metricsd [![Build Status](https://travis-ci.org/josegonzalez/metricsd.svg?branch=master)](https://travis-ci.org/josegonzalez/metricsd)
+# metricsd [![Build Status](https://travis-ci.org/agocs/metricsd.svg?branch=master)](https://travis-ci.org/agocs/metricsd)
 
 a metrics collecting agent for linux written in go
 
@@ -22,8 +22,8 @@ You can setup metricsd via the following short script:
 
 ```shell
 make dependencies
-go get github.com/josegonzalez/metricsd
-go build github.com/josegonzalez/metricsd
+go get github.com/agocs/metricsd
+go build github.com/agocs/metricsd
 ```
 
 Then you can execute the script using an ini-file of your choice:

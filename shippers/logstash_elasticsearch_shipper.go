@@ -4,9 +4,9 @@ import "bytes"
 import "encoding/json"
 import "fmt"
 import "net/http"
-import "github.com/Sirupsen/logrus"
-import "github.com/josegonzalez/metricsd/structs"
-import "github.com/josegonzalez/metricsd/utils"
+import "github.com/sirupsen/logrus"
+import "github.com/agocs/metricsd/structs"
+import "github.com/agocs/metricsd/utils"
 import "github.com/vaughan0/go-ini"
 
 type actionMap map[string]indexMap

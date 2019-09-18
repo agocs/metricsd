@@ -2,7 +2,7 @@ package config
 
 import "os"
 import "github.com/ogier/pflag"
-import "github.com/Sirupsen/logrus"
+import "github.com/sirupsen/logrus"
 import "github.com/vaughan0/go-ini"
 
 var LogLevel string

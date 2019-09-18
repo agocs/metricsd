@@ -7,7 +7,7 @@ import "strings"
 import "unicode"
 import "unicode/utf8"
 import "text/template"
-import "github.com/Sirupsen/logrus"
+import "github.com/sirupsen/logrus"
 import "github.com/ogier/pflag"
 
 // Data is an exported type that

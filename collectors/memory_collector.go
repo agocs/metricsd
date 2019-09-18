@@ -1,9 +1,9 @@
 package collectors
 
 import "github.com/c9s/goprocinfo/linux"
-import "github.com/josegonzalez/metricsd/mappings"
-import "github.com/josegonzalez/metricsd/structs"
-import "github.com/Sirupsen/logrus"
+import "github.com/agocs/metricsd/mappings"
+import "github.com/agocs/metricsd/structs"
+import "github.com/sirupsen/logrus"
 import "github.com/vaughan0/go-ini"
 
 type MemoryCollector struct {

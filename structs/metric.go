@@ -4,7 +4,7 @@ import "encoding/json"
 import "fmt"
 import "os"
 import "time"
-import "github.com/Sirupsen/logrus"
+import "github.com/sirupsen/logrus"
 import "github.com/vaughan0/go-ini"
 
 type Metric struct {
